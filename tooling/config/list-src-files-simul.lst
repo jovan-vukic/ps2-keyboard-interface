@@ -1,4 +1,4 @@
 src/simulation/modules/hex.v
 src/simulation/modules/deb.v
 src/simulation/modules/ps2.v
-src/simulation/testbench_simulation.v
+src/simulation/testbench_verification_uvm.sv

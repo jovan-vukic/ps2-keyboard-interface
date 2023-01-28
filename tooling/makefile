@@ -1,4 +1,4 @@
-SIMUL_TOP_LEVEL_MODULE = testbench_simulation
+SIMUL_TOP_LEVEL_MODULE = testbench_verification_uvm
 SIMUL_LIB = work
 # 1 (yes) -> override timescale
 # 0 (no)  -> do NOT override timescale
