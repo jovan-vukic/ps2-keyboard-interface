@@ -1,4 +1,4 @@
-SIMUL_TOP_LEVEL_MODULE = <module_name>
+SIMUL_TOP_LEVEL_MODULE = testbench_simulation
 SIMUL_LIB = work
 # 1 (yes) -> override timescale
 # 0 (no)  -> do NOT override timescale
@@ -15,7 +15,7 @@ SIMUL_IS_QUESTA_USED = 1
 # C:\\"Program Files"\\questasim64_10.4c\\win64\\ 
 SIMUL_TOOL_EXE_DIR_PATH = C:\\"Program Files"\\questasim64_10.4c\\win64\\
 
-SYNTH_TOP_LEVEL_MODULE = <module_name>
+SYNTH_TOP_LEVEL_MODULE = DE0_TOP
 # CycloneIII
 # CycloneV
 SYNTH_DEVICE_FAMILY = CycloneIII

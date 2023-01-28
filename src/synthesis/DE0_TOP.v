@@ -191,5 +191,18 @@ module DE0_TOP (CLOCK_50,
     // ==  ==  ==  ==  ==  ==  ==  ==  ==  ==  ==  ==  ==  ==  ==  ==  == 
     //  Structural coding
     // ==  ==  ==  ==  ==  ==  ==  ==  ==  ==  ==  ==  ==  ==  ==  ==  == 
-    
+    assign { HEX0_DP, HEX1_DP, HEX2_DP, HEX3_DP } = 4'hF;
+
+    ps2 inst (
+        .clk(CLOCK_50),
+        .rst_n(SW[9]),
+        .ps2_clk(PS2_KBCLK),
+        .ps2_data(PS2_KBDAT),
+
+        .byte_h_digit_h(HEX3_D),
+        .byte_h_digit_l(HEX2_D),
+        .byte_l_digit_h(HEX1_D),
+        .byte_l_digit_l(HEX0_D)
+    );
+
 endmodule
